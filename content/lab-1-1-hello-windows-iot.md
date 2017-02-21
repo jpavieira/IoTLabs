@@ -97,7 +97,7 @@ public sealed partial class MainPage : Page
 ```
 
 ### Create a Timer to Control the LED
-The LED connected to GPIO pin 12 will turn on and off at an interval defined by the <code>timer</code> object. The <code>TODO</code> comment is the placeholder for configuring the <code>timer</code>. Following the call to <code>InitializeComponent</code>, configure the <code>timer</code> to raise an event every 500ms. (Soon you will create an event handler that will do the real work.) 
+The LED connected to GPIO 12 will turn on and off at an interval defined by the <code>timer</code> object. The <code>TODO</code> comment is the placeholder for configuring the <code>timer</code>. Following the call to <code>InitializeComponent</code>, configure the <code>timer</code> to raise an event every 500ms. (Soon you will create an event handler that will do the real work.) 
 
 1. Locate the <code>// TODO: Create an instance of a Timer that will raise an event every 500ms</code> comment in the <code>public MainPage()</code> constructor.
 2. Replace the comment with the following code. 
